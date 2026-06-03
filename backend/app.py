@@ -104,7 +104,7 @@ class PipelineOrchestrator:
                 **intent_result.get("data", {}),
                 **design_result.get("data", {}),
                 **schema_result.get("data", {})
-            }
+            }  
 
             # Stage 4: Validation Layer
             start_time = time.time()
